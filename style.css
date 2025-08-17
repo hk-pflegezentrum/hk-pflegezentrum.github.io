@@ -186,7 +186,7 @@ main {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image: url("D:/HK Pflegezentrum Webseite/images/motto.png");
+  background-image: url("assets/images/motto.png");
   background-size: cover;
   background-position: center;
 }
@@ -354,4 +354,5 @@ footer a:focus {
   border: 0;
   padding: 0;
   margin: -1px;
+
 }
