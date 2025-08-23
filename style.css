@@ -186,7 +186,7 @@ main {
 
 .full-image-text {
   height: 50vh;            /* half the viewport height */
-  min-height: 250px;       /* don’t get too small */
+  min-height: 400px;       /* don’t get too small */
   max-height: 500px;       /* don’t get too huge */
   background-image: url("assets/images/motto.png");
   background-size: cover;
