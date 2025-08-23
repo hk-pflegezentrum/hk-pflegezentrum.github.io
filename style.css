@@ -215,20 +215,20 @@ main {
 
 .full-image-text h2 {
   margin: 0 0 1rem;
-  font-size: clamp(1.25rem, 3vw, 2rem); /*font-size: 3vw;*/
+  font-size: clamp(2.5rem, 4vw, 3.5rem); /*font-size: 3vw;*/
   text-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 
 .full-image-text h3 {
   margin: 0 0 0.5rem;
-  font-size: clamp(1rem, 2.5vw, 1.5rem); /*font-size: 2.5vw;*/
+  font-size: clamp(2rem, 3.5vw, 3rem); /*font-size: 2.5vw;*/
   font-weight: normal;
   text-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 
 .full-image-text p {
   margin: 0.5 0 0;
-  font-size: 1.5vw;
+  font-size: clamp(1rem, 2.5vw, 1.5rem); /*font-size: 1.5vw;*/
   font-style: italic;
   text-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
