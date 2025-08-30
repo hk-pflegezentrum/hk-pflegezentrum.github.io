@@ -355,6 +355,9 @@ footer a:focus {
   header { padding: 6px 12px;}
   .menu-toggle {
     display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
   }
   .nav-overlay ul {
     flex-direction: column;
@@ -372,6 +375,27 @@ footer a:focus {
   .nav-overlay.active {
     display: block;
   }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  body {
+    padding-top: var(--header-h);
+  }
+  .hero-overlay {
+    top: 40%;             /* move higher */
+    left: 50%;            /* keep horizontal center */
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
   .full-image-text::before {
    content: "";
    position: absolute;
