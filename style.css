@@ -356,8 +356,8 @@ footer a:focus {
   .menu-toggle {
     display: block;
     position: absolute;
-    bottom: 12px;
-    right: 12px;
+    bottom: 6px;
+    right: 6px;
     top: 1rem;
     right: 1rem;
   }
@@ -391,13 +391,7 @@ footer a:focus {
   body {
     padding-top: var(--header-h);
   }
-  .hero-overlay {
-    top: 40%;             /* move higher */
-    left: 50%;            /* keep horizontal center */
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
+  
   .full-image-text::before {
    content: "";
    position: absolute;
