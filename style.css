@@ -356,6 +356,8 @@ footer a:focus {
   .menu-toggle {
     display: block;
     position: absolute;
+    bottom: 12px;
+    right: 12px;
     top: 1rem;
     right: 1rem;
   }
