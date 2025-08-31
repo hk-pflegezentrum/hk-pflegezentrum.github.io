@@ -358,7 +358,7 @@ footer a:focus {
     position: absolute;
     top: 50%;
     right: 1rem;
-    transform: translate(-50%);
+    transform: translateY(-50%);
   }
   .nav-overlay ul {
     flex-direction: column;
