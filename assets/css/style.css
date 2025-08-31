@@ -312,6 +312,14 @@ h2 {
   margin-bottom: 12px;
 }
 
+.map {
+  height: 380px;
+  object-fit: cover;
+  border-radius: 8px 8px 8px 8px;
+  margin-bottom: 12px;
+  style="border: 0;
+}
+
 /* Button */
 .btn { 
   display: inline-block;
@@ -455,8 +463,19 @@ footer a:focus {
   .full-image-text p {font-size: clamp(1rem, 2.2vw, 1.25rem);}
   .grid { grid-template-columns: 1fr;}
   .card img { height: auto;}
-  footer { flex-direction: column; align-items: center;}
-  .footer-column { min-width: auto; margin-bottom: 20px;}
+  footer {
+    flex-direction: column;    /* stack vertically */
+    align-items: stretch;      /* allow columns to take full width */
+  }
+  .footer-column {
+    min-width: auto;
+    margin-bottom: 20px;
+    text-align: left;          /* align text to left */
+    width: 100%;               /* make column full width */
+  }
+  .footer-column:last-child {
+    margin-bottom: 0;
+  }
   /* Accessibility focus */
   :focus {
     outline: 3px solid var(--accent);
