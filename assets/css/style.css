@@ -186,6 +186,11 @@ main {
   z-index: 0;
 }
 
+.hero-full.no-gradient::after {
+  content: none;
+  background: none;
+}
+
 /* hero text on top of image */
 .hero-overlay {
   position: relative;
